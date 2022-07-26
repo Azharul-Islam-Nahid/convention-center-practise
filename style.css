@@ -10,6 +10,63 @@
     text-align: center;
 }
 
+.toast-border {
+    border: none;
+    border-left: 8px solid #3F87F5;
+
+}
+
+/* -----package section style----- */
+.package>h1 {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.package-card {
+    padding: 40px 30px 30px 30px;
+    border: 1px solid #E5E5E5;
+}
+
+.package-card a {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.list-group-item i {
+    background: #3F87F5;
+    color: #ffffff;
+}
+
+.hover-card {
+    background: url(icons/watermark.svg), #3F87F5;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: -40px;
+    border: none;
+    box-shadow: 3px 15px 20px #81b2fc;
+    transition: .3s;
+}
+
+.hover-card .list-group-item {
+    background: transparent;
+    color: #ffffff;
+}
+
+.hover-card .list-group-item i {
+    background: #ffffff;
+    color: #3F87F5;
+}
+
+.hover-card .col-lg-3 {
+    margin-bottom: 20px;
+}
+
+
+
+
 @media only screen and (max-width:786px) {
     .carousel-item {
         height: 80vh;
